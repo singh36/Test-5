@@ -1,0 +1,16 @@
+1.let does not allow to redeclare variables. var allows to redeclare variables.
+Example. 
+var a = 5; // 5
+var a = 3; //3
+ 
+let a = 5;
+let a = 3; // error 
+
+2. let is block-scoped and var is function scoped. 
+3. let Doesn't Allow Hoisting but  Hoisting occurs in var.
+Example.
+ console.log(a);
+var a; // undefined (not an error)
+
+console.log(a);
+let a; // Uncaught ReferenceError: a is not defined

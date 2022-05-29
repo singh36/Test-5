@@ -1,0 +1,21 @@
+Null:
+Null means an empty or non-existent value. Null is assigned, and explicitly means nothing.
+Example:
+var test1 = null;
+console.log(test1); // null
+
+Undefined:
+
+Undefined means a variable has been declared, but the value of that variable has not yet been defined. 
+For example:
+var test2;
+console.log(test2); // undefined
+Unlike null, undefined is of the type undefined:
+console.log(typeof test2); // undefined
+
+Not defined:
+A not defined is a variable which is not declared at a given point of time with declaration keyword like var, 
+let or const.
+Example:
+  console.log(a);
+  var a = 5;
